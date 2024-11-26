@@ -2263,7 +2263,9 @@ button {
 .blog-section .single-blog .details .btn-wrap:hover {
   color: #fff !important;
 }
-
+.subscribe-form-section {
+  margin-top: 20px;
+}
 /*----------------------------------------*/
 /*  16. Video Intro Section
 /*----------------------------------------*/
@@ -3417,7 +3419,9 @@ button {
 .contact-form-section {
   padding-bottom: 0px;
 }
-
+.contact-form-section.section-gap-i {
+  padding: 100px 0px;
+}
 .contact-form-section .form-wrap h2 {
   font-weight: 700;
 }
@@ -3426,7 +3430,7 @@ button {
   margin-bottom: 30px;
 }
 
-.contact-form-section .form-wrap .message {
+.contact-form-section .message {
   height: 50px;
   width: 100%;
   font-size: 13px;
@@ -3436,13 +3440,15 @@ button {
   margin-top: 20px;
   display: none;
   color: #fff;
+  position: absolute;
+  width: 82%;
 }
 
-.contact-form-section .form-wrap .error {
+.contact-form-section .error {
   background: #ef5659;
 }
 
-.contact-form-section .form-wrap .success {
+.contact-form-section .success {
   background: #44cc88;
 }
 
@@ -4195,6 +4201,9 @@ button {
   .middle-text-wrap {
     margin-bottom: 50px !important;
   }
+  .contact-form-section.section-gap-i {
+    padding: 50px 0px;
+  }
   .section-gap {
     padding: 50px 0;
   }
@@ -4484,5 +4493,19 @@ button {
   .subscribe-section .subscribe-wrap .input-group {
     width: 250px;
   }
+}
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  position: absolute;
+  left: 28px;
+  margin-top: -23px;
+  display: none;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.form-control {
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */
