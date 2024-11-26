@@ -1502,7 +1502,7 @@ button {
   padding: 40px 25px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  width: 320px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -1520,7 +1520,7 @@ button {
 
 .services-section .single-service p {
   margin-bottom: 0px;
-  width: 230px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -3432,7 +3432,7 @@ button {
 
 .contact-form-section .message {
   height: 50px;
-  width: 100%;
+  width: 40%;
   font-size: 13px;
   line-height: 50px;
   text-align: center;
@@ -3441,7 +3441,6 @@ button {
   display: none;
   color: #fff;
   position: absolute;
-  width: 82%;
 }
 
 .contact-form-section .error {
@@ -4173,10 +4172,10 @@ button {
             flex-direction: row !important;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
+            justify-content: space-evenly;
   }
   .overview-section .tab-left .nav-pills .nav-link {
-    width: 30%;
+    width: 35%;
     height: 100%;
     display: block;
     text-align: center;
@@ -4185,6 +4184,7 @@ button {
     font-size: 14px;
     margin-top: 15px;
     margin-left: 0px;
+    height: 42px;
   }
   .overview-section .tab-left .nav-pills .nav-link img {
     width: 32px;
@@ -4333,6 +4333,21 @@ button {
     right: 30px;
     bottom: 30px;
   }
+  .single-service {
+    text-align: center;
+  }
+  .plus1 {
+    width: 56px;
+  }
+  .plus2 {
+    width: 109px;
+  }
+  .plus3 {
+    width: 46px;
+  }
+  .plus4 {
+    width: 98px;
+  }
 }
 
 @media (max-width: 485px) {
@@ -4436,6 +4451,7 @@ button {
   }
   .cta-subscribe-wrap {
     margin: 0px 15px;
+    margin-bottom: 100px;
   }
   .cta-subscribe-wrap h4 {
     font-size: 20px;
@@ -4507,5 +4523,10 @@ button {
 
 .form-control {
   position: relative;
+}
+
+.details.entry-content ul{
+  margin-left: 40px;
+  list-style: decimal;
 }
 /*# sourceMappingURL=style.css.map */

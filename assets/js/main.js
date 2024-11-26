@@ -299,4 +299,18 @@
         }
     });
 
+    jQuery(document).ready(function ($) {
+        var form = document.getElementById("subscribeForm");
+        if (form) {
+            form.addEventListener("submit", function (event) {
+                event.preventDefault();
+                document.getElementById("subscribeMessage").style.display = "block";
+                document.getElementById("subscribeForm").reset();
+                setTimeout(() => {
+                    document.getElementById("subscribeMessage").style.display = "none";
+                }, 5000);
+            });
+        }
+    });
+
 })(jQuery);
