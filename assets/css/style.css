@@ -670,6 +670,7 @@ button {
   color: #fcc843;
   display: inline-block;
   margin-right: 30px;
+  white-space: nowrap;
 }
 
 .dope-navbar .nav-brand:focus,
