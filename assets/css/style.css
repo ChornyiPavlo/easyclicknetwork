@@ -4529,4 +4529,7 @@ button {
   margin-left: 40px;
   list-style: decimal;
 }
+.single-widget ul li {
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
