@@ -571,7 +571,7 @@ button {
   color: #fff;
 }
 
-.dopenav ul li:hover > a:after {
+.dopenav ul li:hover > a:after, .dopenav .active {
   color: #ffc000 !important;
 }
 
@@ -2190,6 +2190,8 @@ button {
 
 .blog-section .single-blog h4 {
   font-size: 20px;
+  line-height: 1.3;
+  height: 78px;
 }
 
 .blog-section .single-blog .feature-thumb {
@@ -4348,6 +4350,10 @@ button {
   }
   .plus4 {
     width: 98px;
+  }
+  .col-lg-4.footer-widgets {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }
 
