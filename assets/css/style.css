@@ -1290,7 +1290,9 @@ button {
   margin-left: 0;
   margin-right: 15px;
 }
-
+.dopenav ul li a.menu-btn {
+  padding: 8px 25px;
+}
 .menu-btn {
   margin-left: 32px;
   display: inline;
@@ -3900,8 +3902,10 @@ button {
   .section-title {
     margin-bottom: 20px;
   }
-  .menu-btn {
-    display: none !important;
+  .breakpoint-on .dopenav > ul > li > a.menu-btn {
+    background-color: #ffc000;
+    display: block;!important;
+    margin: 20px;
   }
   .header-section .header-content .header-text-wrap h1 {
     font-size: 45px !important;
